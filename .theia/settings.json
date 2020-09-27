@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.inc": "php",
+        "*.install": "php",
+        "*.module": "php"
+    }
+}

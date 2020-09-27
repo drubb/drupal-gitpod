@@ -6,4 +6,5 @@
 !README.md
 !php.ini
 !setup.sh
-!/.theia/**
+!.theia
+!.theia/settings.json
