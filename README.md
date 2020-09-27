@@ -9,6 +9,7 @@ Test drive the latest stable or a custom Drupal version in Gitpod, using one of 
 
 ## Introduction
 
+![Screenshot Drupal on Gitpod](https://repository-images.githubusercontent.com/299027069/cf3d5480-00d1-11eb-83e4-e52eefc2f38f)
 This project enables spinning up Drupal instances for testing or demonstration purposes. It launches a [Gitpod](https://gitpod.io) workspace with
 some modifications supporting Drupal, mainly Drush support, automatic site installation and some performance tweaks.
 
