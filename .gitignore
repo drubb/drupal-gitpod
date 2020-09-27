@@ -1,0 +1,9 @@
+*
+!.gitignore
+!.gitpod.Dockerfile
+!.gitpod.yml
+!LICENSE
+!README.md
+!php.ini
+!setup.sh
+!/.theia/**

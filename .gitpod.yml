@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+ports:
+  - port: 3306
+    onOpen: ignore
+tasks:
+  - init: bash ./setup.sh
+    command: '[ -d "./drupal" ] && cd drupal && drush serve 0.0.0.0:8888'
+    name: "Start & Run"
+  - command: sleep 1; cd drupal; clear
+    name: Command Line
