@@ -29,6 +29,11 @@ Clicking the Gitpod button starts the creation of a Docker container for your en
 running you'll see the online IDE (Theia/VSCode) with two terminals opened: "Start & Run" and "Command Line". The first one is used to setup Drupal
 and run the PHP Development server, the second one is yours, e.g. to run Drush commands.
 
+In case you're installing Drupal manually, you'll find some instructions in the "Start & Run" terminal on how to install Drupal and start the server, otherwise this will be done automatically.
+
+Drupal installation will take some time. Once the development server is started, you'll be noticed about a new service on port 8888 and
+can open your Drupal site, either inside a new IDE panel ("Open Preview"), or in your browser ("Open Browser").
+
 In case you've closed the first terminal accidentally, or the PHP server crashed, you can open a new terminal, go to your Drupal root and start the server again using Drush: `drush serve 0.0.0.0:8888`
 
 In Gitpod you can stop workspaces and resume execution later. Stopped workspaces won't count against your monthly usage limits.
