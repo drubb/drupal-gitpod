@@ -7,5 +7,5 @@ tasks:
   - init: bash ./setup.sh
     command: '[ -d "./drupal" ] && cd drupal && drush serve 0.0.0.0:8888'
     name: "Start & Run"
-  - command: 'bash ./command.sh && cd drupal'
+  - command: 'bash ./command.sh && [ -d "./drupal" ] && cd drupal'
     name: Command Line
