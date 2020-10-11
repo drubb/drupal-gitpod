@@ -8,3 +8,5 @@
 !setup.sh
 !.theia
 !.theia/settings.json
+!command.sh
+!instructions-*.md
