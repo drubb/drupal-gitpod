@@ -22,6 +22,7 @@ Read more about Gitpod on their [documentation site](https://www.gitpod.io/docs/
 ## Requirements
 
 * You need a (free) account on [Gitpod](https://gitpod.io), and need to login there using an account on GitHub, GitLab or Bitbucket.
+* Your code needs to be compatible with MySQL 8
 
 ## How does it work?
 
