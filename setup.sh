@@ -7,7 +7,7 @@ mysql -u root -e "create user 'drupal'@'localhost' identified by 'drupal'"
 mysql -u root -e "grant all privileges on drupal.* to 'drupal'@'localhost'"
 
 # Speed up database write operations
-mysql-u root -e "set global innodb_buffer_pool_size = 1073741824"
+mysql -u root -e "set global innodb_buffer_pool_size = 1073741824"
 mysql -u root -e "set global innodb_flush_log_at_trx_commit = 2"
 
 # For self-installed Drupal we're done.
