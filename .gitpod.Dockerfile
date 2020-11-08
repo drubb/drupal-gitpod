@@ -10,4 +10,4 @@ RUN sudo apt-get update && \
     sudo composer selfupdate && \
     sudo rm -rf /root/.composer && \
     composer global require drush/drush-launcher && \
-    echo 'export PATH="$PATH:~/.composer/vendor/bin"' >> ~/.bashrc
+    echo 'export PATH="$PATH:~/.config/composer/vendor/bin"' >> ~/.bashrc
