@@ -2,6 +2,7 @@
 set -e
 
 # Create a MySQL user and Drupal database using default credentials for site install command.
+while [ ! -f /var/run/mysqld/mysqld.sock ]; do sleep 1; done
 mysql -u root -e "create database drupal"
 mysql -u root -e "create user 'drupal'@'localhost' identified by 'drupal'"
 mysql -u root -e "grant all privileges on drupal.* to 'drupal'@'localhost'"
