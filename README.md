@@ -2,10 +2,10 @@
 
 Test drive the latest stable or a custom Drupal version in Gitpod, using one of the following buttons:
   
-|**Launch the latest Drupal 8 version**|[![Launch Drupal 8 in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_MAJOR=8/https://github.com/drubb/drupal-gitpod)|
+|**Launch the latest Drupal 8 version**|[![Launch Drupal 8 in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_MAJOR=8/https://github.com/54x1/drupal-gitpod)|
 |-|-|
-|**Launch the latest Drupal 9 version**|[![Launch Drupal 9 in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_MAJOR=9/https://github.com/drubb/drupal-gitpod)|
-|**I want to install Drupal manually**|[![Custom Drupal Environment in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_MAJOR=none/https://github.com/drubb/drupal-gitpod)|
+|**Launch the latest Drupal 9 version**|[![Launch Drupal 9 in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_MAJOR=9/https://github.com/54x1/drupal-gitpod)|
+|**I want to install Drupal manually**|[![Custom Drupal Environment in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_MAJOR=none/https://github.com/54x1/drupal-gitpod)|
 
 ## Introduction
 
