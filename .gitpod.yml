@@ -20,4 +20,9 @@ jetbrains:
       - com.sourcegraph.jetbrains
 # sometimes caused workspace with jetbrains not able to start, hence comment out
 # prebuilds:
-# version: stable
+#   version: stable
+
+# enable all branches to have prebuilds 
+github:
+  prebuilds:
+    branches: true 
