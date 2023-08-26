@@ -4,7 +4,7 @@ clear
 
 # Gitpod will open README.md automatically in preview mode.
 git update-index --assume-unchanged README.md
-cp "instructions-${DRUPAL_MAJOR:-9}.md" README.md
+cp "instructions-general.md" README.md
 
 # In case of manual installation we're done.
 if [ "$DRUPAL_MAJOR" = "none" ]

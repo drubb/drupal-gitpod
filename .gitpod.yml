@@ -9,3 +9,15 @@ tasks:
     name: "Start & Run"
   - command: 'bash ./command.sh && [ -d "./drupal" ] && cd drupal'
     name: Command Line
+
+# enable useful plugins
+jetbrains:
+  phpstorm:
+    plugins:
+      - com.intellij.lang.jsgraphql
+      - org.sonarlint.idea
+      - com.intellij.ml.llm
+      - com.sourcegraph.jetbrains
+# sometimes caused workspace with jetbrains not able to start, hence comment out
+# prebuilds:
+# version: stable
