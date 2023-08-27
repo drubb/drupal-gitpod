@@ -41,7 +41,8 @@ printf "options:\n  uri: '${GITPOD_WORKSPACE_URL[@]/https:\/\//https:\/\/8888-}'
 composer require drush/drush
 
 # Install the site
-drush si -y --site-name="Drupal ${DRUPAL_MAJOR} on Gitpod" --account-pass=admin
+# drush-launcher is abandoned, now all use traditional path syntax to invoke drush
+vendor/bin/drush si -y --site-name="Drupal ${DRUPAL_MAJOR} on Gitpod" --account-pass=admin
 
 # Add some tweaks to settings.php
 cd ./web/sites/default
@@ -51,4 +52,4 @@ printf "\$settings['config_sync_directory'] = '../config/sync';\n" >> settings.p
 chmod 0444 settings.php
 
 # Run cron to get rid of annoying message on status page
-drush cron
+vendor/bin/drush cron
