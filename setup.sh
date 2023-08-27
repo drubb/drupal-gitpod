@@ -52,4 +52,5 @@ printf "\$settings['config_sync_directory'] = '../config/sync';\n" >> settings.p
 chmod 0444 settings.php
 
 # Run cron to get rid of annoying message on status page
+cd ${GITPOD_REPO_ROOT}/drupal
 vendor/bin/drush cron
